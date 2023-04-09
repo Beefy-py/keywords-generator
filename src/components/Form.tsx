@@ -59,7 +59,7 @@ const Form = () => {
     }
   };
   return (
-    <section className="grid grid-cols-2 divide-x-2 divide-gray-300 dark:divide-gray-800 space-x-4">
+    <section className="grid md:grid-cols-2 divide-y-2 md:divide-y-0 md:divide-x-2 divide-gray-300 dark:divide-gray-800 space-y-4 md:space-y-0 md:space-x-4">
       <div className="left">
         <h3 className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
           Your Text
@@ -94,7 +94,7 @@ const Form = () => {
           </button>
         </form>{" "}
       </div>
-      <div className="right pl-4">
+      <div className="right pt-4 md:pt-0 md:pl-4">
         {loading ? (
           <div className="px-3 py-1 text-xs w-max mx-auto font-medium leading-none text-center text-cyan-800 bg-cyan-200 rounded-full animate-pulse dark:bg-cyan-900 dark:text-cyan-200">
             loading...
