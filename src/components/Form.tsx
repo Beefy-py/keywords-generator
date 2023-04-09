@@ -30,7 +30,7 @@ const Form = () => {
     setResponses([]);
 
     try {
-      const response = await fetch("/api/hello", {
+      const response = await fetch("/api/extract", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
