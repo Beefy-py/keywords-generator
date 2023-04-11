@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <Link
             href="/extract"
-            className="transition group inline-flex outline-none justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-cyan-500 hover:bg-cyan-500 focus:ring-2 focus:ring-cyan-300 dark:focus:ring-cyan-700"
+            className="transition group inline-flex outline-none justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 dark:text-gray-100 rounded-lg border border-cyan-500 hover:bg-cyan-500 focus:ring-2 focus:ring-cyan-300 dark:focus:ring-cyan-700"
           >
             <span>Try it!</span>
             <ArrowLongRightIcon className="ml-2 w-6 h-6 group-hover:translate-x-1 transition" />

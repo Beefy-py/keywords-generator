@@ -83,7 +83,7 @@ const Form = () => {
 
           <button
             type="submit"
-            className="transition group inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-cyan-500 hover:bg-cyan-500 focus:ring-2 focus:ring-cyan-300 dark:focus:ring-cyan-700"
+            className="transition group inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 dark:text-gray-100 rounded-lg border border-cyan-500 hover:bg-cyan-500 focus:ring-2 focus:ring-cyan-300 dark:focus:ring-cyan-700"
           >
             <span>Extract</span>
             <InboxArrowDownIcon
